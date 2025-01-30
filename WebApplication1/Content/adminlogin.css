@@ -1,0 +1,64 @@
+﻿.Alogin {
+    background-image: url('images/image7.png');
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.Alogin-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    width: 400px;
+}
+
+.Alogin h2 {
+    margin-bottom: 20px;
+}
+
+.Alogin label {
+    display: block;
+    text-align: left;
+    padding-left: 30px;
+    margin: 10px 0 5px;
+}
+
+.Alogin input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.Alogin button {
+    width: 50%;
+    padding: 10px;
+    background: #00d1ff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.Alogin button:hover {
+    background: #009bbf;
+}
+
+.Alogin a {
+    color: #00d1ff;
+    text-decoration: none;
+}
+
+    .Alogin a:hover {
+        text-decoration: underline;
+    }

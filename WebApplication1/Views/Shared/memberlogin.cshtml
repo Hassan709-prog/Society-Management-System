@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "memberlogin";
+}
+<div class="Mlogin">
+    <div class="Mlogin-container">
+        <h2>Member Login</h2>
+        <form action="member_dashboard.html" method="POST">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+            <p><a href="#">Forgot Password?</a></p>
+            <p>Don't have an account? <a href="/Signup/Signuppage">Sign Up</a></p>
+        </form>
+    </div>
+</div>
+
