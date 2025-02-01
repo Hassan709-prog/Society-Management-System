@@ -1,64 +1,114 @@
-﻿Slogin {
+﻿.Slogin {
     font-family: Arial, sans-serif;
-    background-image: url('images/image8.png');
-    font-family: Arial, sans-serif;
+    background-image: url('images/signbg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
+    padding: 20px;
 }
 
 .Slogin-container {
     background: rgba(0, 0, 0, 0.7);
-    padding: 20px;
+    padding: 25px;
     border-radius: 10px;
     color: white;
     text-align: center;
-    width: 300px;
+    width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-Slogin h2 {
-    margin-bottom: 20px;
+    .Slogin-container h2 {
+        margin-bottom: 20px;
+    }
+
+    .Slogin-container label {
+        display: block;
+        text-align: left;
+        margin: 10px 0 5px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .Slogin-container input {
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+    .Slogin-container button {
+        width: 50%;
+        padding: 12px;
+        background: #00d1ff;
+        border: none;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background 0.3s ease, transform 0.2s;
+    }
+
+        .Slogin-container button:hover {
+            background: #009bbf;
+            transform: scale(1.05);
+        }
+
+    .Slogin-container a {
+        color: #00d1ff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        .Slogin-container a:hover {
+            text-decoration: underline;
+        }
+
+@media (max-width: 768px) {
+    .Slogin-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+        .Slogin-container input {
+            width: 100%;
+        }
+
+        .Slogin-container button {
+            width: 100%;
+        }
 }
 
-Slogin label {
-    display: block;
-    text-align: left;
-    margin: 10px 0 5px;
-}
+@media (max-width: 480px) {
+    .Slogin {
+        padding: 10px;
+    }
 
-Slogin input, select {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: none;
-    border-radius: 5px;
-}
+    .Slogin-container {
+        width: 100%;
+        padding: 15px;
+        border-radius: 5px;
+    }
 
-Slogin button {
-    width: 100%;
-    padding: 10px;
-    background: #00d1ff;
-    border: none;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-}
+        .Slogin-container h2 {
+            font-size: 20px;
+        }
 
-Slogin button:hover {
-    background: #009bbf;
-}
+        .Slogin-container label {
+            font-size: 12px;
+        }
 
-Slogin a {
-    color: #00d1ff;
-    text-decoration: none;
-}
+        .Slogin-container input {
+            font-size: 12px;
+        }
 
-Slogin a:hover {
-    text-decoration: underline;
+        .Slogin-container button {
+            font-size: 14px;
+        }
 }

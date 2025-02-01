@@ -1,0 +1,95 @@
+﻿.contactpg {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+    .contactpg .hero {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/contactbg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        position: relative;
+    }
+
+    .contactpg .hero-text {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 25px;
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+        max-width: 420px;
+        width: 90%;
+    }
+
+    .contactpg .contact-form input, .contact-form textarea {
+        width: 100%;
+        padding: 12px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 6px;
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        font-size: 16px;
+    }
+
+        .contactpg .contact-form input::placeholder,
+        .contactpg .contact-form textarea::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+    .contactpg .contact-form button {
+        background: #00aaff;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 16px;
+        width: 100%;
+        transition: 0.3s;
+    }
+
+        .contactpg .contact-form button:hover {
+            background: #0088cc;
+        }
+
+
+    .contactpg .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        padding: 40px;
+        text-align: center;
+    }
+
+    .contactpg .info-box {
+        background: white;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: 0.3s;
+        width: 280px;
+    }
+
+        .contactpg .info-box:hover {
+            transform: translateY(-8px);
+            background: #007bff;
+            color: white;
+        }
+
+        .contactpg .info-box i {
+            font-size: 42px;
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+
+        .contactpg .info-box:hover i {
+            color: white;
+        }

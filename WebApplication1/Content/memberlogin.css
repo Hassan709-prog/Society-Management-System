@@ -62,3 +62,40 @@ button {
     .Mlogin a:hover {
         text-decoration: underline;
     }
+@media (max-width: 768px) {
+    .Mlogin-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    label {
+        padding-left: 5%;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    button {
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    .Mlogin {
+        padding: 10px;
+    }
+
+    .Mlogin-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    input {
+        width: 95%;
+    }
+
+    button {
+        width: 80%;
+    }
+}

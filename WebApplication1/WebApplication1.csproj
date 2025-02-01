@@ -45,6 +45,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.2.1.35\lib\net461\Dapper.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -132,7 +135,10 @@
   <ItemGroup>
     <Content Include="Content\about.css" />
     <Content Include="Content\adminlogin.css" />
+    <Content Include="Content\contact.css" />
+    <Content Include="Content\images\about2.png" />
     <Content Include="Content\images\backgroundvideo.mp4" />
+    <Content Include="Content\images\contactbg.png" />
     <Content Include="Content\images\flag.png" />
     <Content Include="Content\images\image1.png" />
     <Content Include="Content\images\image2.png" />
@@ -142,6 +148,7 @@
     <Content Include="Content\images\image6.png" />
     <Content Include="Content\images\image7.png" />
     <Content Include="Content\images\public.png" />
+    <Content Include="Content\images\signbg.png" />
     <Content Include="Content\memberlogin.css" />
     <Content Include="Content\signup.css" />
     <Content Include="Content\style.css" />
