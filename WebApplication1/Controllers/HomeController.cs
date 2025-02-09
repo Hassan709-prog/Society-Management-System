@@ -23,6 +23,10 @@ namespace SocietyManagementSystemControllers
             {
                 return View();
             }
+        public ActionResult Services()
+        {
+            return View();
+        }
         public ActionResult About()
         {
             return View();
