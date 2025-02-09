@@ -40,3 +40,13 @@
     margin-bottom: 10px;
     color: #007bff;
 }
+
+.service-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1em;
+    color: #666;
+}
