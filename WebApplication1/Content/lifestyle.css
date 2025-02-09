@@ -167,7 +167,7 @@ lifestyle .testimonials blockquote {
         background: #ff6600;
     }
 
-.section-btn {
+lifestyle .section-btn {
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -181,7 +181,7 @@ lifestyle .testimonials blockquote {
     z-index: 2;
 }
 
-    .section-btn:hover {
+    lifestyle .section-btn:hover {
         background: #ff6600;
         transform: scale(1.05);
     }
