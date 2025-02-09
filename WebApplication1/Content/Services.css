@@ -60,3 +60,9 @@
         font-size: 2em;
         margin-bottom: 10px;
     }
+
+    .service-contact p {
+        font-size: 1.2em;
+        color: #555;
+        margin-bottom: 20px;
+    }
