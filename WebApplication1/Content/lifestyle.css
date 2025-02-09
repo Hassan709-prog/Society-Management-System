@@ -80,45 +80,133 @@ lifestyle .testimonials blockquote {
     font-size: 1.2em;
 }
 
-lifestyle .healthcare, .education, .hospitality {
-    text-align: center;
-    padding: 50px;
 
+.healthcare, .education, .hospitality {
+    text-align: center;
+    padding: 80px 50px;
+    position: relative;
+    color: white;
+    overflow: hidden;
     margin-top: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-    lifestyle .healthcare h2, .education h2, .hospitality h2 {
-        font-size: 2em;
-        color: #333;
-        margin-bottom: 10px;
+.healthcare {
+    background: url('healthcare-bg.jpg') no-repeat center center/cover;
+}
+
+.education {
+    background: url('education-bg.jpg') no-repeat center center/cover;
+}
+
+.hospitality {
+    background: url('hospitality-bg.jpg') no-repeat center center/cover;
+}
+
+    .healthcare::before,
+    .education::before,
+    .hospitality::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
     }
 
-    lifestyle .healthcare p, .education p, .hospitality p {
-        font-size: 1.2em;
-        color: #666;
+    .healthcare h2, .education h2, .hospitality h2 {
+        font-size: 2.5em;
+        position: relative;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: bold;
+        z-index: 2;
+    }
+
+    .healthcare p, .education p, .hospitality p {
+        font-size: 1.3em;
+        position: relative;
+        z-index: 2;
+        max-width: 800px;
+        margin: 0 auto;
+        line-height: 1.6;
+    }
+
+.healthcare, .education, .hospitality {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    .healthcare h2::after,
+    .education h2::after,
+    .hospitality h2::after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 4px;
+        background: #ffcc00;
+        margin: 10px auto;
+        transition: 0.5s ease;
+    }
+    .healthcare:hover h2::after,
+    .education:hover h2::after,
+    .hospitality:hover h2::after {
+        width: 100px;
+        background: #ff6600;
+    }
+
+.section-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #ffcc00;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 20px;
+    transition: 0.3s ease;
+    position: relative;
+    z-index: 2;
+}
+
+    .section-btn:hover {
+        background: #ff6600;
+        transform: scale(1.05);
     }
 
 @media (max-width: 768px) {
-    lifestyle .video-container {
-        height: 60vh;
+    .healthcare, .education, .hospitality {
+        padding: 60px 30px;
     }
 
-    lifestyle .main-content {
-        padding: 30px;
+        .healthcare h2, .education h2, .hospitality h2 {
+            font-size: 2em;
+        }
+
+        .healthcare p, .education p, .hospitality p {
+            font-size: 1.1em;
+        }
+}
+
+@media (max-width: 480px) {
+    .healthcare, .education, .hospitality {
+        padding: 40px 20px;
     }
 
-    lifestyle .quick-links .text h1 {
-        font-size: 2em;
-    }
+        .healthcare h2, .education h2, .hospitality h2 {
+            font-size: 1.8em;
+        }
 
-    lifestyle .quick-links .text h2 {
-        font-size: 1.5em;
-    }
+        .healthcare p, .education p, .hospitality p {
+            font-size: 1em;
+        }
+}
 
-    .buttons {
-        flex-direction: column;
-    }
+
+@media (max-width: 768px) {
 
     lifestyle .gallery {
         flex-direction: column;
@@ -132,18 +220,6 @@ lifestyle .healthcare, .education, .hospitality {
 }
 
 @media (max-width: 480px) {
-    lifestyle .video-container {
-        height: 50vh;
-    }
-
-    lifestyle .quick-links .text h1 {
-        font-size: 1.8em;
-    }
-
-    lifestyle .quick-links .text h2 {
-        font-size: 1.2em;
-    }
-
     lifestyle .gallery-item img {
         width: 100%;
         height: auto;
