@@ -189,6 +189,7 @@
     <Content Include="Views\Shared\adminlogin.cshtml" />
     <Content Include="Views\Shared\signuppage.cshtml" />
     <Content Include="Views\Home\Services.cshtml" />
+    <Content Include="Views\Home\lifestyle.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
