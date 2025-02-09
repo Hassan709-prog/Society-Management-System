@@ -35,7 +35,11 @@ lifestyle .gallery-item img {
 }
 
 lifestyle .image-container {
-    background: url('society-background.jpg') no-repeat center center/cover;
+    background-image: url('images/public.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     position: relative;
     color: white;
     padding: 50px;
