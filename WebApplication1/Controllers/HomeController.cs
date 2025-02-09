@@ -14,6 +14,11 @@ namespace SocietyManagementSystemControllers
         {
             return View();
         }
+
+        public ActionResult PrivacyPolicy()
+        {
+            return View();
+        }
         public ActionResult Adminlogin()
         {
             return View();
