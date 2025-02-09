@@ -25,3 +25,18 @@
     gap: 20px;
     justify-content: center;
 }
+
+.service-item {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #007bff;
+}
