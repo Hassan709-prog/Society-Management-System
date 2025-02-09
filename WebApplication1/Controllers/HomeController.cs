@@ -27,7 +27,7 @@ namespace SocietyManagementSystemControllers
         {
             return View();
         }
-        public ActionResult Blog()
+        public ActionResult Services()
         {
             return View();
         }
