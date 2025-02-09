@@ -191,6 +191,7 @@
     <Content Include="Views\Shared\signuppage.cshtml" />
     <Content Include="Views\Home\Services.cshtml" />
     <Content Include="Views\Home\lifestyle.cshtml" />
+    <Content Include="Views\Home\privacypolcy.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
