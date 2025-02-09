@@ -227,7 +227,6 @@ lifestyle .section-btn {
         height: auto;
     }
 }
-
 @media (max-width: 480px) {
     lifestyle .gallery-item img {
         width: 100%;
