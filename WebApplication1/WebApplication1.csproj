@@ -149,6 +149,7 @@
     <Content Include="Content\images\image7.png" />
     <Content Include="Content\images\public.png" />
     <Content Include="Content\images\signbg.png" />
+    <Content Include="Content\lifestyle.css" />
     <Content Include="Content\memberlogin.css" />
     <Content Include="Content\Services.css" />
     <Content Include="Content\signup.css" />
@@ -189,6 +190,7 @@
     <Content Include="Views\Shared\adminlogin.cshtml" />
     <Content Include="Views\Shared\signuppage.cshtml" />
     <Content Include="Views\Home\Services.cshtml" />
+    <Content Include="Views\Home\lifestyle.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

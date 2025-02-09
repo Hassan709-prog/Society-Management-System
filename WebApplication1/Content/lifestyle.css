@@ -1,0 +1,235 @@
+﻿lifestyle body, h1, h2, p, ul, li, blockquote {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+lifestyle  body {
+    background-color: #f4f4f4;
+}
+
+lifestyle .society-gallery {
+    text-align: center;
+    padding: 50px;
+    background: white;
+}
+
+    lifestyle .society-gallery h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+lifestyle .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+lifestyle .gallery-item img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+lifestyle .image-container {
+    background-image: url('images/public.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    color: white;
+    padding: 50px;
+}
+
+lifestyle .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+lifestyle .events-section, .testimonials {
+    position: relative;
+    text-align: center;
+    padding: 30px;
+}
+
+    lifestyle  .events-section h2, .testimonials h2 {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+
+    lifestyle  .events-section ul {
+        list-style: none;
+        font-size: 1.2em;
+    }
+
+        lifestyle  .events-section ul li {
+            margin: 10px 0;
+        }
+
+lifestyle .testimonials blockquote {
+    font-style: italic;
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+
+.healthcare, .education, .hospitality {
+    text-align: center;
+    padding: 80px 50px;
+    position: relative;
+    color: white;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.healthcare {
+    background-image: url('images/image4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.education {
+    background-image: url('images/image5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hospitality {
+    background-image: url('images/image6.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+    .healthcare::before,
+    .education::before,
+    .hospitality::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    .healthcare h2, .education h2, .hospitality h2 {
+        font-size: 2.5em;
+        position: relative;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: bold;
+        z-index: 2;
+    }
+
+    .healthcare p, .education p, .hospitality p {
+        font-size: 1.3em;
+        position: relative;
+        z-index: 2;
+        max-width: 800px;
+        margin: 0 auto;
+        line-height: 1.6;
+    }
+
+.healthcare, .education, .hospitality {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    .healthcare h2::after,
+    .education h2::after,
+    .hospitality h2::after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 4px;
+        background: #ffcc00;
+        margin: 10px auto;
+        transition: 0.5s ease;
+    }
+    .healthcare:hover h2::after,
+    .education:hover h2::after,
+    .hospitality:hover h2::after {
+        width: 100px;
+        background: #ff6600;
+    }
+
+lifestyle .section-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #ffcc00;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 20px;
+    transition: 0.3s ease;
+    position: relative;
+    z-index: 2;
+}
+
+    lifestyle .section-btn:hover {
+        background: #ff6600;
+        transform: scale(1.05);
+    }
+
+@media (max-width: 768px) {
+    .healthcare, .education, .hospitality {
+        padding: 60px 30px;
+    }
+
+        .healthcare h2, .education h2, .hospitality h2 {
+            font-size: 2em;
+        }
+
+        .healthcare p, .education p, .hospitality p {
+            font-size: 1.1em;
+        }
+}
+
+@media (max-width: 480px) {
+    .healthcare, .education, .hospitality {
+        padding: 40px 20px;
+    }
+
+        .healthcare h2, .education h2, .hospitality h2 {
+            font-size: 1.8em;
+        }
+
+        .healthcare p, .education p, .hospitality p {
+            font-size: 1em;
+        }
+}
+
+
+@media (max-width: 768px) {
+
+    lifestyle .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    lifestyle .gallery-item img {
+        width: 90%;
+        height: auto;
+    }
+}
+@media (max-width: 480px) {
+    lifestyle .gallery-item img {
+        width: 100%;
+        height: auto;
+    }
+}

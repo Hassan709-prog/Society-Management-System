@@ -18,7 +18,10 @@ namespace SocietyManagementSystemControllers
         {
             return View();
         }
-
+        public ActionResult Lifestyle()
+        {
+            return View();
+        }
         public ActionResult Contact()
             {
                 return View();
