@@ -3,3 +3,145 @@
     padding: 0;
     font-family: Arial, sans-serif;
 }
+
+lifestyle  body {
+    background-color: #f4f4f4;
+}
+
+lifestyle .society-gallery {
+    text-align: center;
+    padding: 50px;
+    background: white;
+}
+
+    lifestyle .society-gallery h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+lifestyle .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+lifestyle .gallery-item img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+lifestyle .image-container {
+    background: url('society-background.jpg') no-repeat center center/cover;
+    position: relative;
+    color: white;
+    padding: 50px;
+}
+
+lifestyle .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+lifestyle .events-section, .testimonials {
+    position: relative;
+    text-align: center;
+    padding: 30px;
+}
+
+    lifestyle  .events-section h2, .testimonials h2 {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+
+    lifestyle  .events-section ul {
+        list-style: none;
+        font-size: 1.2em;
+    }
+
+        lifestyle  .events-section ul li {
+            margin: 10px 0;
+        }
+
+lifestyle .testimonials blockquote {
+    font-style: italic;
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+lifestyle .healthcare, .education, .hospitality {
+    text-align: center;
+    padding: 50px;
+    background: #fff;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    lifestyle .healthcare h2, .education h2, .hospitality h2 {
+        font-size: 2em;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    lifestyle .healthcare p, .education p, .hospitality p {
+        font-size: 1.2em;
+        color: #666;
+    }
+
+@media (max-width: 768px) {
+    lifestyle .video-container {
+        height: 60vh;
+    }
+
+    lifestyle .main-content {
+        padding: 30px;
+    }
+
+    lifestyle .quick-links .text h1 {
+        font-size: 2em;
+    }
+
+    lifestyle .quick-links .text h2 {
+        font-size: 1.5em;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    lifestyle .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    lifestyle .gallery-item img {
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    lifestyle .video-container {
+        height: 50vh;
+    }
+
+    lifestyle .quick-links .text h1 {
+        font-size: 1.8em;
+    }
+
+    lifestyle .quick-links .text h2 {
+        font-size: 1.2em;
+    }
+
+    lifestyle .gallery-item img {
+        width: 100%;
+        height: auto;
+    }
+}
