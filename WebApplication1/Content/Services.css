@@ -50,3 +50,13 @@
     font-size: 1em;
     color: #666;
 }
+
+.service-contact {
+    text-align: center;
+    margin-top: 40px;
+}
+
+    .service-contact h2 {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
