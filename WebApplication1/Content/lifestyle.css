@@ -91,15 +91,24 @@ lifestyle .testimonials blockquote {
 }
 
 .healthcare {
-    background: url('healthcare-bg.jpg') no-repeat center center/cover;
+    background-image: url('images/image4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .education {
-    background: url('education-bg.jpg') no-repeat center center/cover;
+    background-image: url('images/image5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .hospitality {
-    background: url('hospitality-bg.jpg') no-repeat center center/cover;
+    background-image: url('images/image6.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
     .healthcare::before,
