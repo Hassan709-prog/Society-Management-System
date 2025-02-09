@@ -31,6 +31,10 @@ namespace SocietyManagementSystemControllers
         {
             return View();
         }
+        public ActionResult Services()
+        {
+            return View();
+        }
 
         [HttpPost]
             public ActionResult SubmitContactForm(string name, string email, string message)
