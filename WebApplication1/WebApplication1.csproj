@@ -151,6 +151,7 @@
     <Content Include="Content\images\signbg.png" />
     <Content Include="Content\lifestyle.css" />
     <Content Include="Content\memberlogin.css" />
+    <Content Include="Content\privacypolicy.css" />
     <Content Include="Content\Services.css" />
     <Content Include="Content\signup.css" />
     <Content Include="Content\style.css" />
